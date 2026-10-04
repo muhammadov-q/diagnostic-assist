@@ -1,0 +1,28 @@
+{
+  "_what_to_expect": "A failure the corpus has never seen (tank safety valve). It must not be forced into the nearest existing 'valve' cause; it becomes a proposed new cause for expert review.",
+  "case": {
+    "case_id": "C-90002",
+    "equipment_family": "Air Compressor CX",
+    "equipment_type": "CX-450",
+    "created_at": "2026-04-03T13:25:00Z",
+    "language": "en",
+    "customer_description": "Loud hiss from the tank, pressure won't build past 7 bar.",
+    "technician_notes": "Safety valve lifting early at 7.2 bar, seat damaged. Replaced safety valve, builds to 10 bar.",
+    "parts_replaced": ["SAFETYVALVE-CX"],
+    "resolution_text": "Faulty tank safety valve replaced."
+  },
+  "extraction": {
+    "outcome_type": "fixed",
+    "root_cause": {
+      "evidence_quote": "Safety valve lifting early at 7.2 bar, seat damaged.",
+      "component": "tank safety valve",
+      "location": null,
+      "mechanism": "wear",
+      "certainty": "observed"
+    },
+    "parts": [{"part_number": "SAFETYVALVE-CX", "role": "fixes_cause"}],
+    "customer_symptoms": ["loud hiss from the tank", "pressure does not build past 7 bar"],
+    "error_codes": [],
+    "customer_report_contradicted": false
+  }
+}

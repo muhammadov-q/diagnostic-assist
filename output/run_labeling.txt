@@ -1,0 +1,94 @@
+extractions: extractions_model.json
+====================================================================================================
+1. BACKFILL over all sample cases
+====================================================================================================
+case      status          cause / reason                                             issues
+C-48211   trusted         air-compressor-cx/main-contactor                           -
+C-48377   trusted         air-compressor-cx/main-contactor                           component_not_checked
+C-48590   trusted         air-compressor-cx/frame-ground-strap                       -
+C-48604   trusted         aerial-platform-ap/boom-cylinder-rod-seal                  -
+C-48712   trusted         water-chiller-ch/condensate-drain-line                     -
+C-48755   trusted         aerial-platform-ap/boom-cylinder                           component_not_checked
+C-48801   excluded        not fixed and no diagnosis stated                          -
+C-48899   trusted         air-compressor-cx/valve-plate                              -
+C-48934   trusted         air-compressor-cx/intake-screen                            -
+C-49002   trusted         air-compressor-cx/alternator                               -
+C-49040   trusted         air-compressor-cx/battery                                  -
+C-49118   excluded        not a technical case                                       -
+C-49203   excluded        replaced without diagnosis: cause unknown                  -
+C-49266   trusted         air-compressor-cx/valve-plate                              component_not_checked
+C-49301   no_fault_found  air-compressor-cx/no-fault-found                           -
+C-49355   trusted         water-chiller-ch/schrader-valve                            -
+C-49402   trusted         air-compressor-cx/connecting-rod-bearing                   -
+C-49437   trusted         air-compressor-cx/reed-valve                               -
+C-49480   trusted         air-compressor-cx/connecting-rod-bearing                   component_not_checked
+C-49511   trusted         water-chiller-ch/condenser-water-pump-seal                 -
+C-49544   trusted         water-chiller-ch/compression-fitting                       -
+C-49590   trusted         water-chiller-ch/condenser-water-pump-seal                 -
+
+Cause list (what the expert reviews, and what the online scorer counts over):
+
+  [aerial-platform-ap]
+  boom cylinder                            n=1                parts: CYL-BOOM-120 100%              langs: fr       codes: -      ['C-48755']
+  boom cylinder rod seal                   n=1                parts: SEALKIT-BC-120 100%            langs: en       codes: -      ['C-48604']
+
+  [air-compressor-cx]
+  connecting rod bearing                   n=2                parts: BEARING-CR-CX 100%             langs: de/en    codes: -      ['C-49402', 'C-49480']
+  main contactor                           n=2                parts: CONTACTOR-M1 100%              langs: de/en    codes: -      ['C-48211', 'C-48377']
+  valve plate                              n=2                parts: VALVEPLATE-CX 100%             langs: en/it    codes: E207   ['C-48899', 'C-49266']
+  alternator                               n=1                parts: ALT-450 100%                   langs: en       codes: -      ['C-49002']
+  battery                                  n=1                parts: BATT-95AH 100%                 langs: en       codes: -      ['C-49040']
+  frame ground strap                       n=1                parts: no part                        langs: en       codes: -      ['C-48590']
+  intake screen                            n=1                parts: no part                        langs: en       codes: -      ['C-48934']
+  no fault found                           n=1                parts: no part                        langs: en       codes: -      ['C-49301']
+  reed valve                               n=1                parts: REED-CX 100%                   langs: en       codes: E207   ['C-49437']
+
+  [water-chiller-ch]
+  condenser water pump seal                n=2                parts: SEAL-PMP-CH 100%               langs: en       codes: -      ['C-49511', 'C-49590']
+  compression fitting                      n=1                parts: FITTING-22MM 100%              langs: en       codes: -      ['C-49544']
+  condensate drain line                    n=1                parts: no part                        langs: en       codes: -      ['C-48712']
+  schrader valve                           n=1                parts: SCHRADER-SUC 100%              langs: en       codes: LP01   ['C-49355']
+
+Quality metrics: {
+  "cases": 22,
+  "status": {
+    "trusted": 18,
+    "excluded": 3,
+    "no_fault_found": 1
+  },
+  "review_rate": 0.0,
+  "issues": {
+    "component_not_checked": 4
+  },
+  "excluded_reasons": {
+    "not fixed and no diagnosis stated": 1,
+    "not a technical case": 1,
+    "replaced without diagnosis: cause unknown": 1
+  },
+  "trusted_observed_share": 0.833,
+  "trusted_customer_contradicted_share": 0.056,
+  "trusted_component_not_checked_by_language": {
+    "de": 1.0,
+    "en": 0.0,
+    "fr": 1.0,
+    "it": 1.0
+  },
+  "causes": 14,
+  "singleton_cause_share": 0.714
+}
+Quality findings: none
+
+====================================================================================================
+2. NIGHTLY PATH: registry from cases before 2026-03-08, later cases arrive as new
+====================================================================================================
+registry built from 17 cases: 12 causes
+  C-49437 -> pool (nearest cause air-compressor-cx/frame-ground-strap at 0.97 > 0.4)
+  C-49480 -> assigned to air-compressor-cx/connecting-rod-bearing
+  C-49511 -> pool (nearest cause water-chiller-ch/condensate-drain-line at 0.91 > 0.4)
+  C-49544 -> pool (nearest cause water-chiller-ch/condensate-drain-line at 1.00 > 0.4)
+  C-49590 -> pool (nearest cause water-chiller-ch/condensate-drain-line at 0.89 > 0.4)
+
+Proposed new causes from the pool (go to expert review, not straight into the counts):
+  air-compressor-cx/reed-valve                            members=['C-49437']
+  water-chiller-ch/compression-fitting                    members=['C-49544']
+  water-chiller-ch/condenser-water-pump-seal              members=['C-49511', 'C-49590']

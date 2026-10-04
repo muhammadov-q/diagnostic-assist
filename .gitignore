@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+*.egg-info/
+.DS_Store
+
+# LaTeX build files (the PDF is committed)
+docs/*.aux
+docs/*.log
+docs/*.out
+docs/*.toc
+
+# Office lock files
+~$*
+.~*

@@ -1,0 +1,32 @@
+{
+  "_note": "Hand labels for the 22 sample cases, written independently of the pipeline. Stands in for the expert gold set described in docs/submission.pdf section 4. Cause names are free-form; only the grouping is compared.",
+  "causes": {
+    "C-48211": "cx/main-contactor",
+    "C-48377": "cx/main-contactor",
+    "C-48590": "cx/ground-strap",
+    "C-48899": "cx/valve-plate",
+    "C-49266": "cx/valve-plate",
+    "C-48934": "cx/intake-screen-blocked",
+    "C-49002": "cx/alternator",
+    "C-49040": "cx/battery",
+    "C-49402": "cx/conrod-bearing",
+    "C-49480": "cx/conrod-bearing",
+    "C-49437": "cx/reed-valve",
+    "C-48604": "ap/rod-seal",
+    "C-48755": "ap/boom-cylinder",
+    "C-48712": "ch/condensate-drain",
+    "C-49355": "ch/schrader-valve",
+    "C-49511": "ch/condenser-pump-seal",
+    "C-49590": "ch/condenser-pump-seal",
+    "C-49544": "ch/return-line-fitting"
+  },
+  "provisional": {
+    "C-48801": "ap/rod-seal"
+  },
+  "status": {
+    "C-49118": "excluded",
+    "C-49203": "excluded",
+    "C-49301": "no_fault_found",
+    "C-48801": "provisional"
+  }
+}

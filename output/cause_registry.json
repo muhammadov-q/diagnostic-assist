@@ -1,0 +1,343 @@
+{
+  "embedder": "lexical-v1",
+  "causes": [
+    {
+      "cause_id": "aerial-platform-ap/boom-cylinder",
+      "family": "Aerial Platform AP",
+      "label": "boom cylinder",
+      "kind": "cause",
+      "status": "approved",
+      "exemplars": [
+        {
+          "component": "boom cylinder",
+          "part_families": [
+            "CYL-BOOM"
+          ],
+          "case_ids": [
+            "C-48755"
+          ]
+        }
+      ],
+      "members": [
+        "C-48755"
+      ],
+      "provisional_members": []
+    },
+    {
+      "cause_id": "aerial-platform-ap/boom-cylinder-rod-seal",
+      "family": "Aerial Platform AP",
+      "label": "boom cylinder rod seal",
+      "kind": "cause",
+      "status": "approved",
+      "exemplars": [
+        {
+          "component": "boom cylinder rod seal",
+          "part_families": [
+            "SEALKIT-BC"
+          ],
+          "case_ids": [
+            "C-48604"
+          ]
+        }
+      ],
+      "members": [
+        "C-48604"
+      ],
+      "provisional_members": []
+    },
+    {
+      "cause_id": "air-compressor-cx/alternator",
+      "family": "Air Compressor CX",
+      "label": "alternator",
+      "kind": "cause",
+      "status": "approved",
+      "exemplars": [
+        {
+          "component": "alternator",
+          "part_families": [
+            "ALT"
+          ],
+          "case_ids": [
+            "C-49002"
+          ]
+        }
+      ],
+      "members": [
+        "C-49002"
+      ],
+      "provisional_members": []
+    },
+    {
+      "cause_id": "air-compressor-cx/battery",
+      "family": "Air Compressor CX",
+      "label": "battery",
+      "kind": "cause",
+      "status": "approved",
+      "exemplars": [
+        {
+          "component": "battery",
+          "part_families": [
+            "BATT-95AH"
+          ],
+          "case_ids": [
+            "C-49040"
+          ]
+        }
+      ],
+      "members": [
+        "C-49040"
+      ],
+      "provisional_members": []
+    },
+    {
+      "cause_id": "air-compressor-cx/valve-plate",
+      "family": "Air Compressor CX",
+      "label": "valve plate",
+      "kind": "cause",
+      "status": "approved",
+      "exemplars": [
+        {
+          "component": "compressor valve plate",
+          "part_families": [
+            "VALVEPLATE-CX"
+          ],
+          "case_ids": [
+            "C-48899"
+          ]
+        },
+        {
+          "component": "valve plate",
+          "part_families": [
+            "VALVEPLATE-CX"
+          ],
+          "case_ids": [
+            "C-49266"
+          ]
+        }
+      ],
+      "members": [
+        "C-48899",
+        "C-49266"
+      ],
+      "provisional_members": []
+    },
+    {
+      "cause_id": "air-compressor-cx/connecting-rod-bearing",
+      "family": "Air Compressor CX",
+      "label": "connecting rod bearing",
+      "kind": "cause",
+      "status": "approved",
+      "exemplars": [
+        {
+          "component": "connecting rod bearing",
+          "part_families": [
+            "BEARING-CR-CX"
+          ],
+          "case_ids": [
+            "C-49402",
+            "C-49480"
+          ]
+        }
+      ],
+      "members": [
+        "C-49402",
+        "C-49480"
+      ],
+      "provisional_members": []
+    },
+    {
+      "cause_id": "air-compressor-cx/frame-ground-strap",
+      "family": "Air Compressor CX",
+      "label": "frame ground strap",
+      "kind": "cause",
+      "status": "approved",
+      "exemplars": [
+        {
+          "component": "frame ground strap",
+          "part_families": [],
+          "case_ids": [
+            "C-48590"
+          ]
+        }
+      ],
+      "members": [
+        "C-48590"
+      ],
+      "provisional_members": []
+    },
+    {
+      "cause_id": "air-compressor-cx/intake-screen",
+      "family": "Air Compressor CX",
+      "label": "intake screen",
+      "kind": "cause",
+      "status": "approved",
+      "exemplars": [
+        {
+          "component": "intake screen",
+          "part_families": [],
+          "case_ids": [
+            "C-48934"
+          ]
+        }
+      ],
+      "members": [
+        "C-48934"
+      ],
+      "provisional_members": []
+    },
+    {
+      "cause_id": "air-compressor-cx/main-contactor",
+      "family": "Air Compressor CX",
+      "label": "main contactor",
+      "kind": "cause",
+      "status": "approved",
+      "exemplars": [
+        {
+          "component": "main contactor",
+          "part_families": [
+            "CONTACTOR-M1"
+          ],
+          "case_ids": [
+            "C-48211",
+            "C-48377"
+          ]
+        }
+      ],
+      "members": [
+        "C-48211",
+        "C-48377"
+      ],
+      "provisional_members": []
+    },
+    {
+      "cause_id": "air-compressor-cx/reed-valve",
+      "family": "Air Compressor CX",
+      "label": "reed valve",
+      "kind": "cause",
+      "status": "approved",
+      "exemplars": [
+        {
+          "component": "reed valve",
+          "part_families": [
+            "REED-CX"
+          ],
+          "case_ids": [
+            "C-49437"
+          ]
+        }
+      ],
+      "members": [
+        "C-49437"
+      ],
+      "provisional_members": []
+    },
+    {
+      "cause_id": "water-chiller-ch/compression-fitting",
+      "family": "Water Chiller CH",
+      "label": "compression fitting",
+      "kind": "cause",
+      "status": "approved",
+      "exemplars": [
+        {
+          "component": "compression fitting",
+          "part_families": [
+            "FITTING-22MM"
+          ],
+          "case_ids": [
+            "C-49544"
+          ]
+        }
+      ],
+      "members": [
+        "C-49544"
+      ],
+      "provisional_members": []
+    },
+    {
+      "cause_id": "water-chiller-ch/condensate-drain-line",
+      "family": "Water Chiller CH",
+      "label": "condensate drain line",
+      "kind": "cause",
+      "status": "approved",
+      "exemplars": [
+        {
+          "component": "condensate drain line",
+          "part_families": [],
+          "case_ids": [
+            "C-48712"
+          ]
+        }
+      ],
+      "members": [
+        "C-48712"
+      ],
+      "provisional_members": []
+    },
+    {
+      "cause_id": "water-chiller-ch/condenser-water-pump-seal",
+      "family": "Water Chiller CH",
+      "label": "condenser water pump seal",
+      "kind": "cause",
+      "status": "approved",
+      "exemplars": [
+        {
+          "component": "condenser water pump mechanical seal",
+          "part_families": [
+            "SEAL-PMP-CH"
+          ],
+          "case_ids": [
+            "C-49511"
+          ]
+        },
+        {
+          "component": "condenser water pump seal",
+          "part_families": [
+            "SEAL-PMP-CH"
+          ],
+          "case_ids": [
+            "C-49590"
+          ]
+        }
+      ],
+      "members": [
+        "C-49511",
+        "C-49590"
+      ],
+      "provisional_members": []
+    },
+    {
+      "cause_id": "water-chiller-ch/schrader-valve",
+      "family": "Water Chiller CH",
+      "label": "schrader valve",
+      "kind": "cause",
+      "status": "approved",
+      "exemplars": [
+        {
+          "component": "schrader valve",
+          "part_families": [
+            "SCHRADER-SUC"
+          ],
+          "case_ids": [
+            "C-49355"
+          ]
+        }
+      ],
+      "members": [
+        "C-49355"
+      ],
+      "provisional_members": []
+    },
+    {
+      "cause_id": "air-compressor-cx/no-fault-found",
+      "family": "Air Compressor CX",
+      "label": "no fault found",
+      "kind": "no_fault_found",
+      "status": "approved",
+      "exemplars": [],
+      "members": [
+        "C-49301"
+      ],
+      "provisional_members": []
+    }
+  ]
+}

@@ -1,0 +1,2 @@
+recorded 22/22 cases on 2026-10-02 -> fixtures/extractions_model.json
+model: claude-opus-5-5  effort: low  cost: $0.30

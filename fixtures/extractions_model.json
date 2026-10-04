@@ -1,0 +1,440 @@
+{
+  "C-48211": {
+    "outcome_type": "fixed",
+    "root_cause": {
+      "evidence_quote": "Main contactor coil open",
+      "component": "main contactor",
+      "location": null,
+      "mechanism": "electrical_open",
+      "certainty": "observed"
+    },
+    "parts": [
+      {
+        "part_number": "CONTACTOR-M1",
+        "role": "fixes_cause"
+      }
+    ],
+    "customer_symptoms": [
+      "unit won't start",
+      "no lights on control panel"
+    ],
+    "error_codes": [],
+    "customer_report_contradicted": false
+  },
+  "C-48377": {
+    "outcome_type": "fixed",
+    "root_cause": {
+      "evidence_quote": "Hauptschuetz defekt.",
+      "component": "main contactor",
+      "location": null,
+      "mechanism": "electrical_other",
+      "certainty": "inferred"
+    },
+    "parts": [
+      {
+        "part_number": "CONTACTOR-M1",
+        "role": "fixes_cause"
+      }
+    ],
+    "customer_symptoms": [
+      "machine does not start",
+      "no display indication"
+    ],
+    "error_codes": [],
+    "customer_report_contradicted": false
+  },
+  "C-48590": {
+    "outcome_type": "fixed",
+    "root_cause": {
+      "evidence_quote": "Ground strap at frame was loose, heavy corrosion.",
+      "component": "frame ground strap",
+      "location": "frame",
+      "mechanism": "looseness",
+      "certainty": "observed"
+    },
+    "parts": [],
+    "customer_symptoms": [
+      "no crank",
+      "dead panel"
+    ],
+    "error_codes": [],
+    "customer_report_contradicted": false
+  },
+  "C-48604": {
+    "outcome_type": "fixed",
+    "root_cause": {
+      "evidence_quote": "Rod seal weeping",
+      "component": "boom cylinder rod seal",
+      "location": null,
+      "mechanism": "leakage",
+      "certainty": "observed"
+    },
+    "parts": [
+      {
+        "part_number": "SEALKIT-BC-120",
+        "role": "fixes_cause"
+      }
+    ],
+    "customer_symptoms": [
+      "oil leak from boom cylinder",
+      "approx 1 drop per minute"
+    ],
+    "error_codes": [],
+    "customer_report_contradicted": false
+  },
+  "C-48712": {
+    "outcome_type": "fixed",
+    "root_cause": {
+      "evidence_quote": "drain line was blocked",
+      "component": "condensate drain line",
+      "location": null,
+      "mechanism": "blockage",
+      "certainty": "observed"
+    },
+    "parts": [],
+    "customer_symptoms": [
+      "puddle of oil under machine"
+    ],
+    "error_codes": [],
+    "customer_report_contradicted": true
+  },
+  "C-48755": {
+    "outcome_type": "fixed",
+    "root_cause": {
+      "evidence_quote": "Verin raye, fuite continue sous charge",
+      "component": "boom cylinder",
+      "location": null,
+      "mechanism": "wear",
+      "certainty": "observed"
+    },
+    "parts": [
+      {
+        "part_number": "CYL-BOOM-120",
+        "role": "fixes_cause"
+      }
+    ],
+    "customer_symptoms": [
+      "major hydraulic leak at boom cylinder",
+      "puddle under machine"
+    ],
+    "error_codes": [],
+    "customer_report_contradicted": false
+  },
+  "C-48801": {
+    "outcome_type": "not_fixed",
+    "root_cause": null,
+    "parts": [],
+    "customer_symptoms": [
+      "hydraulic leak at boom cylinder",
+      "about 1 drop per minute"
+    ],
+    "error_codes": [],
+    "customer_report_contradicted": false
+  },
+  "C-48899": {
+    "outcome_type": "fixed",
+    "root_cause": {
+      "evidence_quote": "Valve plate worn, reed cracked.",
+      "component": "compressor valve plate",
+      "location": "compressor head",
+      "mechanism": "breakage",
+      "certainty": "observed"
+    },
+    "parts": [
+      {
+        "part_number": "VALVEPLATE-CX",
+        "role": "fixes_cause"
+      }
+    ],
+    "customer_symptoms": [
+      "overheating after 20 minutes of running",
+      "high pressure alarm on panel",
+      "rattling noise from compressor head"
+    ],
+    "error_codes": [
+      "E-207"
+    ],
+    "customer_report_contradicted": false
+  },
+  "C-48934": {
+    "outcome_type": "fixed",
+    "root_cause": {
+      "evidence_quote": "intake screen packed with dust",
+      "component": "intake screen",
+      "location": "cooling fan intake",
+      "mechanism": "blockage",
+      "certainty": "observed"
+    },
+    "parts": [],
+    "customer_symptoms": [
+      "overheats under load",
+      "no error codes displayed"
+    ],
+    "error_codes": [],
+    "customer_report_contradicted": false
+  },
+  "C-49002": {
+    "outcome_type": "fixed",
+    "root_cause": {
+      "evidence_quote": "Alternator output 12.1V at 1500rpm, not charging",
+      "component": "alternator",
+      "location": null,
+      "mechanism": "electrical_other",
+      "certainty": "observed"
+    },
+    "parts": [
+      {
+        "part_number": "ALT-450",
+        "role": "fixes_cause"
+      }
+    ],
+    "customer_symptoms": [
+      "battery dead",
+      "recurring, third time this month"
+    ],
+    "error_codes": [],
+    "customer_report_contradicted": false
+  },
+  "C-49040": {
+    "outcome_type": "fixed",
+    "root_cause": {
+      "evidence_quote": "Charged and load tested, battery failed test.",
+      "component": "battery",
+      "location": null,
+      "mechanism": "wear",
+      "certainty": "observed"
+    },
+    "parts": [
+      {
+        "part_number": "BATT-95AH",
+        "role": "fixes_cause"
+      }
+    ],
+    "customer_symptoms": [
+      "unit dead on arrival",
+      "will not power up"
+    ],
+    "error_codes": [],
+    "customer_report_contradicted": false
+  },
+  "C-49118": {
+    "outcome_type": "not_technical",
+    "root_cause": null,
+    "parts": [],
+    "customer_symptoms": [
+      "disputes invoice for last visit",
+      "requests callback from account manager"
+    ],
+    "error_codes": [],
+    "customer_report_contradicted": false
+  },
+  "C-49203": {
+    "outcome_type": "replaced_without_diagnosis",
+    "root_cause": null,
+    "parts": [
+      {
+        "part_number": "UNIT-CX450",
+        "role": "whole_unit"
+      }
+    ],
+    "customer_symptoms": [
+      "rattling noise from compressor head at high load"
+    ],
+    "error_codes": [],
+    "customer_report_contradicted": false
+  },
+  "C-49266": {
+    "outcome_type": "fixed",
+    "root_cause": {
+      "evidence_quote": "Piastra valvole usurata",
+      "component": "valve plate",
+      "location": null,
+      "mechanism": "wear",
+      "certainty": "inferred"
+    },
+    "parts": [
+      {
+        "part_number": "VALVEPLATE-CX",
+        "role": "fixes_cause"
+      }
+    ],
+    "customer_symptoms": [
+      "overheats after about 20 minutes",
+      "metallic noise"
+    ],
+    "error_codes": [
+      "E207"
+    ],
+    "customer_report_contradicted": false
+  },
+  "C-49301": {
+    "outcome_type": "no_fault_found",
+    "root_cause": null,
+    "parts": [],
+    "customer_symptoms": [
+      "machine won't start",
+      "occurs most mornings when cold"
+    ],
+    "error_codes": [],
+    "customer_report_contradicted": false
+  },
+  "C-49355": {
+    "outcome_type": "fixed",
+    "root_cause": {
+      "evidence_quote": "Leak traced to schrader valve on suction line",
+      "component": "schrader valve",
+      "location": "suction line",
+      "mechanism": "leakage",
+      "certainty": "observed"
+    },
+    "parts": [
+      {
+        "part_number": "SCHRADER-SUC",
+        "role": "fixes_cause"
+      },
+      {
+        "part_number": "REFRIG-R410A",
+        "role": "consumable"
+      }
+    ],
+    "customer_symptoms": [
+      "chiller short cycling",
+      "compressor cuts out after 2-3 minutes"
+    ],
+    "error_codes": [
+      "LP-01"
+    ],
+    "customer_report_contradicted": false
+  },
+  "C-49402": {
+    "outcome_type": "fixed",
+    "root_cause": {
+      "evidence_quote": "Play at crank end, cyl 1 conrod bearing worn",
+      "component": "connecting rod bearing",
+      "location": "cylinder 1",
+      "mechanism": "wear",
+      "certainty": "observed"
+    },
+    "parts": [
+      {
+        "part_number": "BEARING-CR-CX",
+        "role": "fixes_cause"
+      }
+    ],
+    "customer_symptoms": [
+      "loud knocking noise from cylinder 1 under load"
+    ],
+    "error_codes": [],
+    "customer_report_contradicted": false
+  },
+  "C-49437": {
+    "outcome_type": "fixed",
+    "root_cause": {
+      "evidence_quote": "Broken reed valve fragment sitting in cyl 2",
+      "component": "reed valve",
+      "location": "cylinder 2",
+      "mechanism": "breakage",
+      "certainty": "observed"
+    },
+    "parts": [
+      {
+        "part_number": "REED-CX",
+        "role": "fixes_cause"
+      }
+    ],
+    "customer_symptoms": [
+      "knocking noise from cylinder 2",
+      "display flashed error 207 once then cleared"
+    ],
+    "error_codes": [
+      "err 207"
+    ],
+    "customer_report_contradicted": false
+  },
+  "C-49480": {
+    "outcome_type": "fixed",
+    "root_cause": {
+      "evidence_quote": "Pleuellager Zylinder 1 verschlissen, Spiel fuehlbar.",
+      "component": "connecting rod bearing",
+      "location": "cylinder 1",
+      "mechanism": "wear",
+      "certainty": "observed"
+    },
+    "parts": [
+      {
+        "part_number": "BEARING-CR-CX",
+        "role": "fixes_cause"
+      }
+    ],
+    "customer_symptoms": [
+      "knocking noise in cylinder",
+      "noise louder under load"
+    ],
+    "error_codes": [],
+    "customer_report_contradicted": false
+  },
+  "C-49511": {
+    "outcome_type": "fixed",
+    "root_cause": {
+      "evidence_quote": "Condenser pump mechanical seal failed.",
+      "component": "condenser water pump mechanical seal",
+      "location": null,
+      "mechanism": "leakage",
+      "certainty": "inferred"
+    },
+    "parts": [
+      {
+        "part_number": "SEAL-PMP-CH",
+        "role": "fixes_cause"
+      }
+    ],
+    "customer_symptoms": [
+      "water spraying from hot side of unit",
+      "appears to be under pressure"
+    ],
+    "error_codes": [],
+    "customer_report_contradicted": false
+  },
+  "C-49544": {
+    "outcome_type": "fixed",
+    "root_cause": {
+      "evidence_quote": "Corroded compression fitting on chilled water return line",
+      "component": "compression fitting",
+      "location": "chilled water return line",
+      "mechanism": "corrosion",
+      "certainty": "observed"
+    },
+    "parts": [
+      {
+        "part_number": "FITTING-22MM",
+        "role": "fixes_cause"
+      }
+    ],
+    "customer_symptoms": [
+      "slow water drip on cold water side"
+    ],
+    "error_codes": [],
+    "customer_report_contradicted": false
+  },
+  "C-49590": {
+    "outcome_type": "fixed",
+    "root_cause": {
+      "evidence_quote": "condenser pump seal, weeping under pressure",
+      "component": "condenser water pump seal",
+      "location": null,
+      "mechanism": "leakage",
+      "certainty": "observed"
+    },
+    "parts": [
+      {
+        "part_number": "SEAL-PMP-CH",
+        "role": "fixes_cause"
+      }
+    ],
+    "customer_symptoms": [
+      "water leaking from machine"
+    ],
+    "error_codes": [],
+    "customer_report_contradicted": false
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "_what_to_expect": "The extraction below is deliberately WRONG, the way a model could get it wrong: it takes the customer's guess ('oil stain') as the cause. Validation must catch that and hold the case for review. A correct extraction would quote the technician ('Ablauf verstopft') and join the condensate drain cause.",
+  "case": {
+    "case_id": "C-90003",
+    "equipment_family": "Water Chiller CH",
+    "equipment_type": "CH-350",
+    "created_at": "2026-04-04T10:40:00Z",
+    "language": "de",
+    "customer_description": "Ölfleck unter der Maschine.",
+    "technician_notes": "Kein Öl. Kondensatwanne übergelaufen, Ablauf verstopft. Gereinigt.",
+    "parts_replaced": [],
+    "resolution_text": "Kondensatablauf gereinigt."
+  },
+  "extraction": {
+    "outcome_type": "fixed",
+    "root_cause": {
+      "evidence_quote": "Ölfleck unter der Maschine.",
+      "component": "compressor oil seal",
+      "location": null,
+      "mechanism": "leakage",
+      "certainty": "inferred"
+    },
+    "parts": [],
+    "customer_symptoms": ["oil stain under the machine"],
+    "error_codes": [],
+    "customer_report_contradicted": false
+  }
+}

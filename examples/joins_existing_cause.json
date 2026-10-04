@@ -1,0 +1,28 @@
+{
+  "_what_to_expect": "A French case on a CX-300 (a type the corpus has only one case for). Same repair as the English and German contactor cases on the CX-450, so it should join that cause.",
+  "case": {
+    "case_id": "C-90001",
+    "equipment_family": "Air Compressor CX",
+    "equipment_type": "CX-300",
+    "created_at": "2026-04-02T08:10:00Z",
+    "language": "fr",
+    "customer_description": "Le compresseur ne démarre plus, aucun voyant sur le tableau de bord.",
+    "technician_notes": "Pas de tension au tableau. Bobine du contacteur principal coupée. Contacteur remplacé, OK.",
+    "parts_replaced": ["CONTACTOR-M1"],
+    "resolution_text": "Contacteur principal remplacé."
+  },
+  "extraction": {
+    "outcome_type": "fixed",
+    "root_cause": {
+      "evidence_quote": "Bobine du contacteur principal coupée.",
+      "component": "main contactor",
+      "location": null,
+      "mechanism": "electrical_open",
+      "certainty": "observed"
+    },
+    "parts": [{"part_number": "CONTACTOR-M1", "role": "fixes_cause"}],
+    "customer_symptoms": ["compressor no longer starts", "no lights on the dashboard"],
+    "error_codes": [],
+    "customer_report_contradicted": false
+  }
+}
